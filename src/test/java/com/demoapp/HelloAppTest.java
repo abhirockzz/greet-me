@@ -26,7 +26,7 @@ public class HelloAppTest {
     public void greetIfNameProvided() {
         HelloApp hello = new HelloApp();
         String greeting = hello.greet("kehsihba");
-        assertEquals("Hello, kehsihbaa!", greeting);
+        assertEquals("Hello, kehsihba!", greeting);
     }
 
 }
